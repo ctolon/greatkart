@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Apps
     "category",
+    "accounts",
     
 ]
 
@@ -72,6 +73,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "greatkart.wsgi.application"
+
+AUTH_USER_MODEL = "accounts.Account"
 
 
 # Database
